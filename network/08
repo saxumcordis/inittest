@@ -1,0 +1,4 @@
+#1
+export TEMP=$(nslookup slash16.org | grep 'Address' | tr -d '\n\d' | awk -F 'A' '{print $4}' | cut -d ' ' -f 2)
+#2
+whois $TEMP | grep 'OrgName'

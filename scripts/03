@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -en "\033[37;1;41m Current Date \033[0m"
+date
+wget -O - wttr.in/Moscow -q
+echo -en "\033[37;1;41m Good day, Dear! \033[0m"

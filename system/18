@@ -1,0 +1,2 @@
+#mojno tak eshe systemctl stop ssh
+sudo service ssh stop

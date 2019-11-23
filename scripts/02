@@ -1,0 +1,4 @@
+#!bin/bash
+export NAME=#$(whoami)
+pgrep -u $NAME | while read PID; do sudo kill $PID; done
+sudo userdel $NAME

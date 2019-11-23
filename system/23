@@ -1,0 +1,2 @@
+#graphic: login: <login> -> password: <password>
+#ssh: user@ipaddress -> password: <password> 
